@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "dgSpecHash": "lnStUrO7vk2Sjs4V2iwWeHZwyWhMuP07TdJLIrXMBsEZ57NZiAqLoRSZ5APekKRyTruvK1uPc6u9d2LETL1dUA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\zshakulashvili\\source\\repos\\kafkaPractice\\kafkaProducer\\kafkaProducer\\kafkaProducer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\zshakulashvili\\.nuget\\packages\\confluent.kafka\\1.8.0\\confluent.kafka.1.8.0.nupkg.sha512",
+    "C:\\Users\\zshakulashvili\\.nuget\\packages\\librdkafka.redist\\1.8.0\\librdkafka.redist.1.8.0.nupkg.sha512",
+    "C:\\Users\\zshakulashvili\\.nuget\\packages\\system.memory\\4.5.0\\system.memory.4.5.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://jfrog.ele.local/artifactory/api/nuget/nuget'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\zshakulashvili\\source\\repos\\kafkaPractice\\KafkaPracticeConsumer1\\KafkaPracticeConsumer1\\KafkaPracticeConsumer1.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\zshakulashvili\\source\\repos\\kafkaPractice\\KafkaPracticeConsumer1\\KafkaPracticeConsumer1\\KafkaPracticeConsumer1.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\zshakulashvili\\source\\repos\\kafkaPractice\\KafkaPracticeConsumer1\\KafkaPracticeConsumer1\\KafkaPracticeConsumer1.csproj",
+        "projectName": "KafkaPracticeConsumer1",
+        "projectPath": "C:\\Users\\zshakulashvili\\source\\repos\\kafkaPractice\\KafkaPracticeConsumer1\\KafkaPracticeConsumer1\\KafkaPracticeConsumer1.csproj",
+        "packagesPath": "C:\\Users\\zshakulashvili\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\zshakulashvili\\source\\repos\\kafkaPractice\\KafkaPracticeConsumer1\\KafkaPracticeConsumer1\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\zshakulashvili\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://jfrog.ele.local/artifactory/api/nuget/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Confluent.Kafka": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.15, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[7.0.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
